@@ -1,4 +1,4 @@
-<img src=".imagens/python.png" align="right" width="40">
+<img src=".imagens/python.png" align="right" width="38">
 
 # Arquivos Pycharm
  Este Material foi criado pelo Pedro Luiz.
