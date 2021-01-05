@@ -1,0 +1,6 @@
+Pedro;11
+Gustavo Guanabara;35
+Maria;820
+Sergio;47
+Ana;45
+Rafael;5
