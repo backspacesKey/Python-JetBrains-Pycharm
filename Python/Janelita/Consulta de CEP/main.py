@@ -26,12 +26,19 @@ def main():
     adrees_data = request.json()
 
     if 'erro' not in adrees_data:
+        print('Procurando...')
+        sleep(2)
         print('\033[4;32;40m==> CEP Encontrado <==')
         print('CEP: {}'.format(adrees_data['cep']))
+        sleep(1)
         print('Rua: {}'.format(adrees_data['logradouro']))
+        sleep(1)
         print('Complemento: {}'.format(adrees_data['complemento']))
+        sleep(1)
         print('Bairro: {}'.format(adrees_data['bairro']))
+        sleep(1)
         print('Cidade e UF: {} & {}'.format(adrees_data['localidade'], adrees_data['uf']))
+        sleep(1)
         print('DDD: {}\033[m'.format(adrees_data['ddd']))
         print('')
         # print(requests.json())
@@ -45,7 +52,7 @@ def main():
     if opção == 1:
         main()
     if opção == 2:
-        print('\033[0;34;40 SSaindo...\033[m')
+        print('\033[0;34;40m SSaindo...\033[m')
         exit()
 if __name__ == '__main__':
 	main()
